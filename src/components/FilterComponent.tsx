@@ -25,7 +25,6 @@ const FilterComponent = ({ getData }: FilterComponentProps) => {
         id="city"
         className="border p-2"
         defaultValue={""}
-        // value={selectedState?.key}
         onChange={(e) => {
           if (e.target.value === "") {
             setSelectedState({
